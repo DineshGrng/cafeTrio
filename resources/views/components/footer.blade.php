@@ -61,16 +61,16 @@
                     <div class="my-3 fs-3 navs" >
 
                        <div>
-                        <a href="">home</a>
+                        <a href="{{ route('front_home') }}">home</a>
                        </div>
                        <div>
-                        <a href="">Our Story</a>
+                        <a href="{{ route('front_about') }}">Our Story</a>
                        </div>
                        <div>
                         <a href="">Catrgories</a>
                        </div>
                        <div>
-                        <a href="">Contact US</a>
+                        <a  href="{{ route('front_contact')}}">Contact US</a>
                        </div>
 
                     </div>
